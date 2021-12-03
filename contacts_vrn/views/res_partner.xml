@@ -50,8 +50,8 @@
 
          <xpath expr="//field[@name='partner_id']" position="after">
           <field name="vrn" />
-          <field name="po_no" placeholder="Purchase Order Number" attrs="{'invisible' : [('move_type','!=','out_invoice')] }"/>
-          <field name="delivery_ids" widget="many2many_tags" attrs="{'invisible' : [('move_type','!=','out_invoice')] }"/>
+          <field name="po_no" placeholder="Purchase Order Number" attrs="{'invisible' : [('type','!=','out_invoice')] }"/>
+          <field name="delivery_ids" widget="many2many_tags" attrs="{'invisible' : [('type','!=','out_invoice')] }"/>
         </xpath>
     </field>
 </record>
