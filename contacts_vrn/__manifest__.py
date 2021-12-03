@@ -15,4 +15,5 @@
     "auto_install": False,
     "depends": ["base","sale_management"],
     "data": ["views/res_partner.xml"],
+    'images': ['static/description/icon.png'],
 }
