@@ -8,6 +8,7 @@
         - Add Delivery Note to Invoice.
     """,
     "version": "15.0.1.0.0",
+    "License": "AGPL-3.0"
     "category": "Customer Relationship Management",
     "author": "Stephen Ngailo, StiloTech Limited",
     "application": True,
