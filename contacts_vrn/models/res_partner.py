@@ -38,7 +38,7 @@ class invoiceexted(models.Model):
 
     def compute_sale_id(self):
         self.sale_id = False
-        if self.move_type == 'out_invoice':
+        if self.type == 'out_invoice':
             if self.invoice_origin:
                 sale = self.env['sale.order'].search([['name','=',self.invoice_origin]],limit=1)
                 self.sale_id = sale.id
