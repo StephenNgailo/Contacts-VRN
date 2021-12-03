@@ -14,7 +14,7 @@
     "application": True,
     "installable": True,
     "auto_install": False,
-    "depends": ["base","sale_management"],
+    "depends": ["base","sale_management","stock"],
     "data": ["views/res_partner.xml"],
     'images': ['static/description/icon.png'],
 }
